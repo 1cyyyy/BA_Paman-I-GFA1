@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+#why{
+    width: 90%;
+    text-align: justify;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+#why p{
+    font-size: 15.5px;
+}
+
+#why h3{
+    font-size: 18px;
+}
+
+form{
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px;
+    max-width: 400px;
+    margin-left: 35%;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+form p{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+hr{
+    margin-bottom: 12px;
+}
+
+#required::after{
+    content: '*';
+    color: red;
+}
+
+#fnamei, #lnamei, #emailans, #contactans{
+    margin-top: 5px;
+    border: 1px solid grey;
+    border-radius: 7px;
+    height: 20px;
+    width: 80%;
+}
+
+#fnamei:focus{
+    outline: none;
+    border-color: white;
+    box-shadow: 0 0 20px #48abe0;
+}
+
+#lnamei:focus{
+    outline: none;
+    border-color: white;
+    box-shadow: 0 0 20px #48abe0;
+}
+
+#emailans:focus{
+    outline: none;
+    border-color: white;
+    box-shadow: 0 0 20px #48abe0;
+}
+
+#contactans:focus{
+    outline: none;
+    border-color: white;
+    box-shadow: 0 0 20px #48abe0;
+}
+
+#signbutton{
+    height: 25px;
+    width: 75%;
+    background-color: rgb(48, 158, 248);
+    border-color: rgb(48, 158, 248);
+    border-radius: 7px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#resetbutton{
+    height: 25px;
+    width: 20%;
+    background-color: rgb(248, 48, 48);
+    border-color: rgb(248, 48, 48);
+    border-radius: 7px;
+    color: white; 
+    margin-bottom: 10px;
+}
